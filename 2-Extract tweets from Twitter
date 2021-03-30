@@ -1,11 +1,11 @@
 
 #Set up OAuth Tokens
-`<addr>`
+```javascript
 CONSUMER_KEY =''
 CONSUMER_SECRET = ''
 ACCESS_TOKEN = ''
 ACCESS_TOKEN_SECRET = ''
-
+```
 #Authorize with Tweepy’s OAuthhandler
 auth = tw.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
