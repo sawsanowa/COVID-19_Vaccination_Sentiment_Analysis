@@ -1,6 +1,4 @@
-If you want to embed images, this is how you do it:
 
-![Image of Yaktocat](https://octodex.github.com/images/https://www.google.com/imgres?imgurl=https%3A%2F%2Fvid.alarabiya.net%2Fimages%2F2021%2F01%2F16%2Fe4d3ef2d-2caa-4f38-add2-d197a30fd8e6%2Fe4d3ef2d-2caa-4f38-add2-d197a30fd8e6_16x9_600x338.jpg&imgrefurl=https%3A%2F%2Fenglish.alarabiya.net%2Fcoronavirus%2F2021%2F03%2F11%2FCoronavirus-Saudi-Arabia-expands-national-COVID-19-vaccination-campaign-&tbnid=Q3OM_ZSBOFtiVM&vet=12ahUKEwiGndXm9dfvAhUIZRoKHWgxBmkQMygPegUIARCfAQ..i&docid=j9IH86dL60zFJM&w=600&h=338&q=covid%20vaccine&safe=strict&ved=2ahUKEwiGndXm9dfvAhUIZRoKHWgxBmkQMygPegUIARCfAQ)
 # COVID-19 Vaccination Sentiment Analysis
 * This work is done for social computing course project. 
 * The repositry contains: 
