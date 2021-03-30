@@ -23,6 +23,7 @@ tweets = tw.Cursor(api.search,
               tweet_mode='extended',  
               since=date_since).items(100000)
 tweets
+
 #Print extracted data
 tweet_details =[[tweet.created_at,tweet.full_text,tweet.id
 ]for tweet in tweets]
