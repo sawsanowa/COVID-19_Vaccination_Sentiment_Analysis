@@ -1,3 +1,5 @@
+![GitHub Logo](/images/cov.Jpeg)
+Format: ![Alt Text](url)
 # COVID-19 Vaccination Sentiment Analysis
 * This work is done for social computing course project. 
 * The repositry contains: 
