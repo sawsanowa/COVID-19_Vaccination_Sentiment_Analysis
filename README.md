@@ -1,4 +1,3 @@
-![GitHub Logo](/images/logo.png)
 ![A Saudi physician prepares to inject a Pfizer vaccine at a vaccination center](https://vid.alarabiya.net/images/2021/01/16/e4d3ef2d-2caa-4f38-add2-d197a30fd8e6/e4d3ef2d-2caa-4f38-add2-d197a30fd8e6_16x9_1200x676.jpg?width=1138)
 # COVID-19 Vaccination Sentiment Analysis
 * This work is done for social computing course project. 
