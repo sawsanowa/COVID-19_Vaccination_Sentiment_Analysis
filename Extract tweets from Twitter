@@ -1,3 +1,4 @@
+* Extract Tweets from Twitter using Python and Tweepy
 CONSUMER_KEY =''
 CONSUMER_SECRET = ''
 ACCESS_TOKEN = ''
@@ -13,9 +14,6 @@ keyword_query="كورونا،كارونا،لقاح،جرعة،مرخص،اعر�
 date_since = "2021-03-17"
 
 user_location="Saudi Arbia"
-
-
-# Instantiate an object
 
 # Collect tweets
 tweets = tw.Cursor(api.search,
