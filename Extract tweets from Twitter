@@ -1,4 +1,4 @@
-* Extract Tweets from Twitter using Python and Tweepy
+*Extract Tweets from Twitter using Python and Tweepy*
 CONSUMER_KEY =''
 CONSUMER_SECRET = ''
 ACCESS_TOKEN = ''
