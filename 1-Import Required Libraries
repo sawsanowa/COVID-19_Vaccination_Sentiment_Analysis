@@ -1,1 +1,46 @@
-
+import os 
+import numpy as np 
+import pandas as pd
+from matplotlib import pyplot as plt
+import seaborn as sns
+from math import sqrt
+from sklearn.svm import SVC
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.pipeline import Pipeline, FeatureUnion
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import r2_score, explained_variance_score, confusion_matrix, accuracy_score, classification_report, log_loss
+from sklearn import metrics
+from sklearn.feature_selection import VarianceThreshold
+import re
+from nltk.stem import WordNetLemmatizer
+from nltk.tokenize import word_tokenize 
+import string as str
+import nltk
+from nltk.corpus import stopwords
+import pickle # to save model after training
+import sys, csv, codecs
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, classification_report, confusion_matrix
+from gensim.models import KeyedVectors
+from sklearn.impute import SimpleImputer
+from nltk.tokenize import wordpunct_tokenize
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import SGDClassifier, LogisticRegressionCV
+from sklearn.svm import LinearSVC, NuSVC
+from sklearn.naive_bayes import GaussianNB
+from sklearn import metrics
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import GridSearchCV
+from keras.preprocessing.text import Tokenizer
+from keras.preprocessing.sequence import pad_sequences
+from keras.layers import Dense, Input, LSTM, Embedding, Dropout, Activation
+from keras.layers import Bidirectional, GlobalMaxPool1D
+from keras.models import Model
+from keras import initializers, regularizers, constraints, optimizers, layers
+from keras.utils.np_utils import to_categorical
+from sklearn.preprocessing import LabelEncoder
+import math
+import random
+from collections import defaultdict
+from pprint import pprint
+import warnings
