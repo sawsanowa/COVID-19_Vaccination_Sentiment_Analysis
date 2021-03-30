@@ -1,5 +1,5 @@
 ![A Saudi physician prepares to inject a Pfizer vaccine at a vaccination center](https://vid.alarabiya.net/images/2021/01/16/e4d3ef2d-2caa-4f38-add2-d197a30fd8e6/e4d3ef2d-2caa-4f38-add2-d197a30fd8e6_16x9_1200x676.jpg?width=1138)
-*image source* http://github.com - automatic!
+*image source*
 [ALARABIYA NEWS](https://english.alarabiya.net/coronavirus/2021/03/11/Coronavirus-Saudi-Arabia-expands-national-COVID-19-vaccination-campaign-)
 # COVID-19 Vaccination Sentiment Analysis
 * This work is done for social computing course project. 
