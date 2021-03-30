@@ -1,39 +1,7 @@
 
-        #Set up OAuth Tokens
-```python
+```python        
 CONSUMER_KEY =''
 CONSUMER_SECRET = ''
 ACCESS_TOKEN = ''
 ACCESS_TOKEN_SECRET = ''
-
-#Authorize with Tweepy’s OAuthhandler
-auth = tw.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
-auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
-api = tw.API(auth, wait_on_rate_limit=True)
-
-#Extracting Specific Tweets from Twitter
-search_words ="#لقاح_كورونا"
-keyword_query="كورونا،كارونا،لقاح،جرعة،مرخص،اعراض،كوفيد١٩،تطعيم,اثار جانبية"
-date_since = "2021-03-17"
-user_location="Saudi Arbia"
-
-#Pulling Tweets Metadata
-tweets = tw.Cursor(api.search,
-              q=search_words,
-              keyword= keyword_query,
-              lang="ar",
-              tweet_mode='extended',  
-              since=date_since).items(100000)
-tweets
-
-#Print extracted data
-tweet_details =[[tweet.created_at,tweet.full_text,tweet.id
-]for tweet in tweets]
-tweet_details
-
-#Show in a data frame
-tweet_df= pd.DataFrame(data=tweet_details,columns=['created_at','full_text','id'])
-pd.set_option('max_colwidth',800)
-tweet_df
-```
-        
+```        
