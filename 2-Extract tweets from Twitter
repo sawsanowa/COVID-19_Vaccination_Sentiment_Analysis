@@ -1,3 +1,4 @@
+```
 #Set up OAuth Tokens
 CONSUMER_KEY =''
 CONSUMER_SECRET = ''
@@ -33,3 +34,4 @@ tweet_details
 tweet_df= pd.DataFrame(data=tweet_details,columns=['created_at','full_text','id'])
 pd.set_option('max_colwidth',800)
 tweet_df
+```
