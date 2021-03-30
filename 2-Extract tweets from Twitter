@@ -1,6 +1,6 @@
 
 #Set up OAuth Tokens
-'''Python
+`<addr>`
 CONSUMER_KEY =''
 CONSUMER_SECRET = ''
 ACCESS_TOKEN = ''
