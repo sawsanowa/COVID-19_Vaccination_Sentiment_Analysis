@@ -1,0 +1,3 @@
+```
+tweet = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/Final_ALL_Labled_012.csv",encoding='utf-8', usecols=['Sentiment', 'Text'])
+```
