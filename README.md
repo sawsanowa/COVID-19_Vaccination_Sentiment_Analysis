@@ -1,5 +1,6 @@
-![GitHub Logo](/images/cov.Jpeg)
-Format: ![Alt Text](url)
+If you want to embed images, this is how you do it:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 # COVID-19 Vaccination Sentiment Analysis
 * This work is done for social computing course project. 
 * The repositry contains: 
