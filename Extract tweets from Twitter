@@ -1,21 +1,21 @@
-*Extract Tweets from Twitter using Python and Tweepy*
+#Set up OAuth Tokens
 CONSUMER_KEY =''
 CONSUMER_SECRET = ''
 ACCESS_TOKEN = ''
 ACCESS_TOKEN_SECRET = ''
 
+#Authorize with Tweepy’s OAuthhandler
 auth = tw.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tw.API(auth, wait_on_rate_limit=True)
 
-
+#Extracting Specific Tweets from Twitter
 search_words ="#لقاح_كورونا"
 keyword_query="كورونا،كارونا،لقاح،جرعة،مرخص،اعراض،كوفيد١٩،تطعيم,اثار جانبية"
 date_since = "2021-03-17"
-
 user_location="Saudi Arbia"
 
-# Collect tweets
+#Pulling Tweets Metadata
 tweets = tw.Cursor(api.search,
               q=search_words,
               keyword= keyword_query,
