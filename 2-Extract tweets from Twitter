@@ -27,11 +27,10 @@ tweets = tw.Cursor(api.search,
 tweets
 
 #Print extracted data
-```
 tweet_details =[[tweet.created_at,tweet.full_text,tweet.id
 ]for tweet in tweets]
 tweet_details
-```
+
 #Show in a data frame
 tweet_df= pd.DataFrame(data=tweet_details,columns=['created_at','full_text','id'])
 pd.set_option('max_colwidth',800)
