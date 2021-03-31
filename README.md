@@ -2,7 +2,7 @@
 *Image Source:*
 [ALARABIYA NEWS](https://english.alarabiya.net/coronavirus/2021/03/11/Coronavirus-Saudi-Arabia-expands-national-COVID-19-vaccination-campaign-)
 # COVID-19 Vaccination Sentiment Analysis
-* This work is done for social computing course project by ([Sawsan Alowa](https://github.com/sawsanowa)) and ([Lama AlZahrani](https://github.com/lama12121a)). 
+* This work is done for social computing course project by [Sawsan Alowa](https://github.com/sawsanowa) and [Lama AlZahrani](https://github.com/lama12121). 
 * The repositry contains: 
   * Source Code
   * Dataset
